@@ -1,0 +1,4 @@
+.idea
+core/components/mspmollie/vendor
+core/components/mspmollie/composer.lock
+config.core.php
