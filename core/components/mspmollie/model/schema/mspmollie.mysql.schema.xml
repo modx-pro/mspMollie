@@ -4,7 +4,7 @@
 
     <object class="mspMollieOrder" table="ms2_mollie_orders" extends="xPDOObject">
         <field key="local_id" dbtype="int" phptype="int" precision="10" null="false" index="pk"/>
-        <field key="remote_id" dbtype="varchar" phptype="text" precision="255" null="false" index="pk"/>
+        <field key="remote_id" dbtype="varchar" phptype="string" precision="255" null="false" index="pk"/>
 
         <index alias="PRIMARY" name="PRIMARY" primary="true" unique="false" type="BTREE">
             <column key="local_id" length="" collation="A" null="false"/>
