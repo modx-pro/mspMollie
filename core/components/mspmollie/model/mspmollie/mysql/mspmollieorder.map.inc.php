@@ -26,7 +26,7 @@ $xpdo_meta_map['mspMollieOrder']= array (
     'remote_id' => 
     array (
       'dbtype' => 'varchar',
-      'phptype' => 'text',
+      'phptype' => 'string',
       'precision' => '255',
       'null' => false,
       'index' => 'pk',
