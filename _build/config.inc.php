@@ -7,7 +7,7 @@ if (!defined('MODX_CORE_PATH')) {
 return [
     'name' => 'mspMollie',
     'name_lower' => 'mspmollie',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'release' => 'pl',
     // Install package to site right after build
     'install' => true,
